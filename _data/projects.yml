@@ -1,0 +1,58 @@
+# ---
+- name: A* Algorithm with Diffrential constraint
+  organization:
+  github_repo: sauravkdeo/Diffrential-A-algorithm.git
+  image: a_star.gif
+  link: https://en.wikipedia.org/wiki/A*_search_algorithm
+  about: |
+    <a href="https://en.wikipedia.org/wiki/A*_search_algorithm">A* Algorithm</a> is path search
+     algorithm which is used to find the optimal path between start and goal node using a given heuristic.
+     In this project, we had to implement A* algorithm with diffrentail constraint, followed by simulation of a turtlebot in the gazebo world.
+    <br/>
+- name: Dijikstra algorithm
+  organization:
+  github_repo: sauravkdeo/A-Star-and-Dijkstra-algorithm
+  image: dijikstra.gif
+  link: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+  about: |
+    <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijikstra algorithm</a> is also path search
+     algorithm which arbitrarly explores the map without any heuristic and find the shortest path between start and goal end point.
+      <br/>
+- name: Lane Detection
+  organization:
+  github_repo: sauravkdeo/CarND-Advanced-Lane-Lines
+  image: lane_detection.gif
+  link: https://github.com/udacity/CarND-Advanced-Lane-Lines
+  about: |
+    In this project,We had to apply a distortion correction to raw images,followed by image manupulation to create a thresholded binary image.
+    Then, Apply a perspective transform to rectify binary image ("birds-eye view") and detect lane pixels and fit to find the lane boundary.
+    Once the lane is detected, We had to determine the curvature of the lane and vehicle position with respect to center,
+     Warp the detected lane boundaries back onto the original image.
+      <br/>
+- name: Lucas Kanade Templaet Tracker
+  organization:
+  github_repo: sauravkdeo/LucasTemplateTracker
+  image: lucas_kanade.gif
+  link: https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2002_3/baker_simon_2002_3.pdf
+  about: |
+    <a href="https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method#References">Lucas Kanade template tracker algorithm</a>is a differential method for optical flow estimation.
+    It assumes that the flow is essentially constant in a local neighbourhood of the pixel under consideration,
+    and solves the basic optical flow equations for all the pixels in that neighbourhood, by the least squares criterion
+      <br/>
+- name: Mountain Car problem
+  organization:
+  image: MountainCarproblem.gif
+  link: https://gym.openai.com/envs/MountainCar-v0/
+  about: |
+    <a href="https://en.wikipedia.org/wiki/Mountain_car_problem">MountainCarproblem</a> on a one-dimensional track,
+    positioned between two "mountains". The goal is to drive up the mountain on the right; however, the car's engine is not strong enough to
+     scale the mountain in a single pass. Therefore, the only way to succeed is to drive back and forth to build up momentum.
+      <br/>
+- name: Behaviour Cloning
+  image: behaviour_cloning.gif
+  github_repo: sauravkdeo/CarND-Behavioral-Cloning-P3.git
+  link: https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf
+  about: |
+    The objective of this project is to train a neural network,
+     using data collected in simulator provided by Udacity to drive car autonomously.
+      <br/>
