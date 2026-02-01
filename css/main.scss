@@ -355,6 +355,20 @@ ul {
     color: var(--muted);
     font-size: 0.95rem;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.company-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    border-radius: 6px;
+    background: #fff;
+    padding: 2px;
+    box-shadow: 0 6px 16px rgba(20, 22, 34, 0.12);
 }
 
 .bullet-list {
