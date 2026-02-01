@@ -539,7 +539,7 @@ ul {
 }
 
 .tool-pill::before {
-    content: "·";
+    content: "";
     margin-right: 0.5rem;
     color: var(--muted);
     font-weight: 700;
