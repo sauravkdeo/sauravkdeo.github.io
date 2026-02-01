@@ -516,41 +516,15 @@ ul {
     gap: 0.4rem;
 }
 
-.tool-groups {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 1.4rem;
-}
-
-.tool-group {
-    background: var(--card);
-    border-radius: 18px;
-    padding: 1.2rem 1.4rem;
-    box-shadow: var(--soft-shadow);
-    border-top: 4px solid var(--teal);
-}
-
-.tool-group:nth-child(2n) {
-    border-top-color: var(--coral);
-}
-
-.tool-group:nth-child(3n) {
-    border-top-color: var(--sun);
-}
-
-.tool-group:nth-child(4n) {
-    border-top-color: var(--sky);
-}
-
-.tool-group h3 {
-    font-size: 1.05rem;
-    margin-bottom: 0.8rem;
-}
-
 .tool-list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
+}
+
+.tool-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.8rem;
 }
 
 .tool-pill {
