@@ -538,6 +538,13 @@ ul {
     border: 1px solid rgba(28, 30, 38, 0.08);
 }
 
+.tool-pill::before {
+    content: ".";
+    margin-right: 0.4rem;
+    color: var(--muted);
+    font-weight: 700;
+}
+
 .callout-section {
     padding-bottom: 5rem;
 }
