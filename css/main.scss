@@ -539,12 +539,10 @@ ul {
 }
 
 .tool-pill::before {
-    content: "·";
-    margin-right: 0.5rem;
+    content: ".";
+    margin-right: 0.4rem;
     color: var(--muted);
     font-weight: 700;
-    font-size: 1.2rem;
-    line-height: 0;
 }
 
 .callout-section {
