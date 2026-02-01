@@ -355,10 +355,19 @@ ul {
     color: var(--muted);
     font-size: 0.95rem;
     margin-bottom: 1rem;
+    display: grid;
+    gap: 0.35rem;
+}
+
+.meta-line {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    flex-wrap: wrap;
+}
+
+.meta-tenure {
+    font-weight: 600;
+    color: var(--ink);
 }
 
 .company-logo {
