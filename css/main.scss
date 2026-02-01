@@ -30,7 +30,6 @@ body {
     font-family: "Space Grotesk", sans-serif;
     line-height: 1.6;
     background:
-        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'><g fill='none' stroke='%23d6e7ff' stroke-width='1'><path d='M0 40H240'/><path d='M0 120H240'/><path d='M0 200H240'/><path d='M40 0V240'/><path d='M120 0V240'/><path d='M200 0V240'/></g><g fill='%23dff7f2'><circle cx='40' cy='40' r='3'/><circle cx='120' cy='40' r='3'/><circle cx='200' cy='40' r='3'/><circle cx='40' cy='120' r='3'/><circle cx='120' cy='120' r='4'/><circle cx='200' cy='120' r='3'/><circle cx='40' cy='200' r='3'/><circle cx='120' cy='200' r='3'/><circle cx='200' cy='200' r='3'/></g><path d='M40 200 C80 140, 160 140, 200 40' stroke='%23ffe4c2' stroke-width='2' stroke-dasharray='7 8'/></svg>") center/240px 240px,
         radial-gradient(circle at 12% 12%, rgba(255, 107, 107, 0.18), transparent 45%),
         radial-gradient(circle at 88% 0%, rgba(0, 179, 164, 0.18), transparent 45%),
         linear-gradient(180deg, #fff8f2 0%, #f4fffb 100%);
