@@ -427,6 +427,14 @@ ul {
     justify-content: center;
 }
 
+.credential-card {
+    min-height: 180px;
+}
+
+.credential-card p {
+    margin: 0 0 0.6rem;
+}
+
 .carousel {
     position: relative;
     display: grid;
