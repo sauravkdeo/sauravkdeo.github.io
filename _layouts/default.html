@@ -8,9 +8,6 @@
 
   <title>Saurav Kumar</title>
 
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
-
   <link rel="stylesheet" href="/css/main.css">
 
   <script>
@@ -32,71 +29,28 @@
 </head>
 
 <body>
-
-  <div id="layout" class="pure-g">
-    <div class="sidebar pure-u-1 pure-u-md-1-4" id="left-sidebar">
-
-      <div class="header">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li>
-              <img src="/img/saurav_kumar1.png" alt="Paris" style="width:200px;height:150px">
-            </li>
-          </ul>
-        </nav>
-        <hgroup>
-
-          <h1 class="blog-title">
-
-
-            <!-- <img src="" alt="saurav"> -->
-            <p></p>
-            <a href="/{{site.baseurl}}" title="Home">
-              <span class="first-name">Saurav</span><br />
-              <span class="last-name">Kumar</span>
-            </a>
-          </h1>
-          <h2 class="blog-tagline">Master Student at university of Maryland</h2>
-        </hgroup>
-
-        <nav class="nav">
-          <ul class="nav-list">
-            <li>
-              <p></p>
-              <a href="https://github.com/sauravkdeo"><svg class="svg-icon">
-                  <use xlink:href="css/assets/minima-social-icons.svg#github"></use>
-                </svg> <span class="username"> sauravkdeo</span></a>
-            </li>
-            <li>
-              <p></p>
-              <a href="https://www.linkedin.com/in/sauravkdeo"><svg class="svg-icon">
-                  <use xlink:href="css/assets/minima-social-icons.svg#linkedin"></use>
-                </svg> <span class="username"> sauravkdeo</span></a>
-            </li>
-            <li>
-              <p></p>
-              <a href="mailto:saurav.kdeo@gmail.com"><svg class="svg-icon">
-                  <use xlink:href="css/assets/minima-social-icons.svg#googleplus"></use>
-                </svg> <span class="username"> saurav.kdeo@gmail.com</span></a>
-            <!-- <li class="nav-item">
-            <a class="pure-button" href="/files/saurav_kumar_resume.pdf" title="Saurav's Résumé">Résumé</a>
-          </li> -->
-          </ul>
+  <div class="page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/{{site.baseurl}}" title="Home">Saurav Kumar</a>
+        <nav class="top-nav">
+          <a href="https://github.com/sauravkdeo">GitHub</a>
+          <a href="https://www.linkedin.com/in/sauravkdeo/">LinkedIn</a>
+          <a href="mailto:saurav.kdeo@gmail.com">Email</a>
         </nav>
       </div>
-    </div>
+    </header>
 
-    <div class="content pure-u-1 pure-u-md-3-4">
-      <div>
-        <div>
-          {{content}}
-        </div>
+    <main class="site-main">
+      {{content}}
+    </main>
 
-        <div class="footer">
-          <div class="pure-menu pure-menu-horizontal pure-menu-open"></div>
-        </div>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 Saurav Kumar</span>
+        <span>Autonomous Driving · Foundation Models · Edge AI</span>
       </div>
-    </div>
+    </footer>
   </div>
 {% include analytics.html %}
 </body>
