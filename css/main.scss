@@ -88,6 +88,10 @@ h3 {
     color: var(--ink);
 }
 
+.role-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 p {
     margin: 0 0 1rem;
 }
@@ -279,17 +283,18 @@ ul {
 }
 
 .portrait-frame {
-    padding: 0.7rem;
-    border-radius: 28px;
-    background: linear-gradient(140deg, rgba(255, 107, 107, 0.8), rgba(0, 179, 164, 0.7));
-    box-shadow: var(--shadow);
-    animation: float 12s ease-in-out infinite;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    animation: none;
 }
 
 .portrait-frame img {
     width: min(320px, 70vw);
     height: auto;
-    border-radius: 22px;
+    border-radius: 0;
+    box-shadow: var(--shadow);
 }
 
 .hero-note {
